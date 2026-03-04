@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 });
 
 const PORT = process.env.PORT || 5000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://cnpramoda_db_user:pramod123@cluster0.icwuvoj.mongodb.net/?appName=Cluster0';
+const MONGO_URI = process.env.MONGO_URI;
 
 mongoose.connect(MONGO_URI)
     .then(() => {
