@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api/bookmarks';
+const API_URL = import.meta.env.VITE_API_URL || 'https://smart-bookmark-d79p.onrender.com/api/bookmarks';
 
 const api = axios.create({
     baseURL: API_URL,
